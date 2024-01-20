@@ -4,7 +4,7 @@ services:
     schedule: "0 3 * * *"
     region: ohio
     env: docker
-    plan: standard
+    plan: starter
     dockerfilePath: ./Dockerfile
     autoDeploy: false
     envVars:
@@ -34,7 +34,7 @@ services:
     schedule: "0 3 * * *"
     region: ohio
     env: docker
-    plan: standard
+    plan: starter
     dockerfilePath: ./Dockerfile
     autoDeploy: false
     envVars:
