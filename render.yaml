@@ -33,7 +33,6 @@ envVarGroups:
       # Alpine base-OS version, see README
       # For example, 3.20
       - key: ALPINE_VERSION
-        sync: false
         value: 3.20
 
 services:
