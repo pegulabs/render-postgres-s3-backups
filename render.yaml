@@ -33,7 +33,7 @@ envVarGroups:
       # Alpine base-OS version, see README
       # For example, 3.20
       - key: ALPINE_VERSION
-        value: 3.20
+        value: 3.19
 
 services:
   - name: alumnifire-production-postgres-backup-to-s3
